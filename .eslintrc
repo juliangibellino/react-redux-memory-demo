@@ -1,0 +1,19 @@
+{
+    "parser": "babel-eslint",
+    "extends": "./lint/index.js",
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "globals": {
+        "$": false,
+        "Modernizr": false,
+        "grecaptcha": false,
+        "google": false,
+        "_satellite": false,
+        "YT": false
+    },
+    "rules": {
+        "comma-dangle": 0
+    }
+}
